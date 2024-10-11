@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  cursor: url("data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAC6//oAAAAAAGnw+gA+bIwAADlhAABSjABQz+YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEREREREREREREREREREVRRERERERERERERERERERVFMRERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzEREREREREREREREREVRTMRERERERERERERERERVFMxERERERERERERERERFUUzERERERERERERFmEREVRTMRERERERERERERZhERVFMxERERERERERERFgYRFUUzERERERERERERERYgYVRTMRERERERERERERFmIGVFMxERERERERERFmZmZiBkUzERERERERERERYAAGYgBTMREREREREREREWYiIGIGZmYREREREREREREWZiJiZmZmZmEREREREREREWZmJiIiIAZhEREREREREREWAiJgAAZhERERERERERERYAJiZmBhEREREREREREREWAmYCZmERERERERERERERYCZmAmZhEREREREREREREWBmYWAmYRERERERERERERYGYREWAmERERERERERERESYREREWBhERERERERERERH////4////8P///+D////B////g////wf///4P///8H///+D////B////g////wf///4P///8H///+D//+fB///ng///xwf//8IP//+AH//wAD//8AB///AAP//4AAf//AAH//4AH//8AH///AD///gA///4IP//8PD///P4///w=="), auto;
+}
+
+header {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+header img {
+  padding: 5%;
+}
+header section {
+  width: 30%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header section button {
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  height: 7vh;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+header section button:hover {
+  transform: scale(1.1);
+}
+header section .botaoVermelho {
+  background-color: #DF0712;
+  width: 14vw;
+}
+header section .botaoPreto {
+  background-color: transparent;
+  border: solid 1px #fff;
+  width: 8vw;
+}
+
+.tituloEpisodios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  height: 35vh;
+}
+
+main {
+  background-color: #181818;
+  color: #fff;
+  height: 110vh;
+}
+
+.episodios {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12%;
+}
+
+.cada-episodio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70vh;
+  width: 30%;
+  transition: transform 0.3s ease;
+}
+
+.cada-episodio:hover {
+  transform: scale(1.1);
+}
+
+.rodape {
+  background-color: #111111;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5vh;
+  padding-right: 55%;
+}/*# sourceMappingURL=style.css.map */
